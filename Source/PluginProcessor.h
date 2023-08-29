@@ -62,5 +62,6 @@ private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ViraFilterAudioProcessor)
     
     //==============================================================================
-    VAButterworth3 butwo3;
+    VAButterNew filterL;
+    VAButterNew filterR;
 };

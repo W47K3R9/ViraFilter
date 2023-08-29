@@ -6,35 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1C651C28-1EC1-44D0-BFB6-F1D7D179FCE9</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
-			<key>fileName</key>
-			<string>1C651C28-1EC1-44D0-BFB6-F1D7D179FCE9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>ViraFilter_-_VST3-ggtbyvfripmsbkcbzjhywiklvcxt</string>
-			<key>timeStartedRecording</key>
-			<real>715019956.37009001</real>
-			<key>timeStoppedRecording</key>
-			<real>715019956.66004002</real>
-			<key>title</key>
-			<string>Build target ViraFilter - VST3</string>
-			<key>uniqueIdentifier</key>
-			<string>1C651C28-1EC1-44D0-BFB6-F1D7D179FCE9</string>
-		</dict>
-		<key>20B2D696-A619-4671-8A60-F0840B84B401</key>
+		<key>5006BFC3-7213-41E4-9D43-0A0C57FCC015</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>20B2D696-A619-4671-8A60-F0840B84B401.xcactivitylog</string>
+			<string>5006BFC3-7213-41E4-9D43-0A0C57FCC015.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,43 +26,15 @@
 			<key>signature</key>
 			<string>ViraFilter_-_VST3_Manifest_Helper-ggtbyvfripmsbkcbzjhywiklvcxt</string>
 			<key>timeStartedRecording</key>
-			<real>715019463.65368998</real>
+			<real>715040347.99180496</real>
 			<key>timeStoppedRecording</key>
-			<real>715019464.18393898</real>
+			<real>715040348.40527797</real>
 			<key>title</key>
 			<string>Build target ViraFilter - VST3 Manifest Helper</string>
 			<key>uniqueIdentifier</key>
-			<string>20B2D696-A619-4671-8A60-F0840B84B401</string>
+			<string>5006BFC3-7213-41E4-9D43-0A0C57FCC015</string>
 		</dict>
-		<key>433152A8-EB84-4F31-A877-9B0DAFEE4D1B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>433152A8-EB84-4F31-A877-9B0DAFEE4D1B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>ViraFilter_-_Standalone_Plugin-ggtbyvfripmsbkcbzjhywiklvcxt</string>
-			<key>timeStartedRecording</key>
-			<real>715017619.40542495</real>
-			<key>timeStoppedRecording</key>
-			<real>715017623.61067402</real>
-			<key>title</key>
-			<string>Build target ViraFilter - Standalone Plugin</string>
-			<key>uniqueIdentifier</key>
-			<string>433152A8-EB84-4F31-A877-9B0DAFEE4D1B</string>
-		</dict>
-		<key>5A3DE0D3-CCB6-4FCD-AC76-2027435B4BEA</key>
+		<key>675174D0-BE18-49C0-BCEE-66176B34D5CF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -99,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
 			<key>fileName</key>
-			<string>5A3DE0D3-CCB6-4FCD-AC76-2027435B4BEA.xcactivitylog</string>
+			<string>675174D0-BE18-49C0-BCEE-66176B34D5CF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -110,24 +54,24 @@
 			<key>signature</key>
 			<string>ViraFilter_-_AU-ggtbyvfripmsbkcbzjhywiklvcxt</string>
 			<key>timeStartedRecording</key>
-			<real>715017619.40883303</real>
+			<real>715029699.65486801</real>
 			<key>timeStoppedRecording</key>
-			<real>715017623.61106205</real>
+			<real>715029703.85340595</real>
 			<key>title</key>
 			<string>Build target ViraFilter - AU</string>
 			<key>uniqueIdentifier</key>
-			<string>5A3DE0D3-CCB6-4FCD-AC76-2027435B4BEA</string>
+			<string>675174D0-BE18-49C0-BCEE-66176B34D5CF</string>
 		</dict>
-		<key>A636DE08-E849-419D-95B0-C27C804DDE0A</key>
+		<key>8827BC45-1F30-4084-ADD1-0139487FEFF2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
 			<key>fileName</key>
-			<string>A636DE08-E849-419D-95B0-C27C804DDE0A.xcactivitylog</string>
+			<string>8827BC45-1F30-4084-ADD1-0139487FEFF2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -136,15 +80,71 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
+			<string>ViraFilter_-_VST3-ggtbyvfripmsbkcbzjhywiklvcxt</string>
+			<key>timeStartedRecording</key>
+			<real>715040348.40692198</real>
+			<key>timeStoppedRecording</key>
+			<real>715040351.68206203</real>
+			<key>title</key>
+			<string>Build target ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>8827BC45-1F30-4084-ADD1-0139487FEFF2</string>
+		</dict>
+		<key>919A29E2-ADD2-4FB2-9C9B-FBBD382D6AEC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>919A29E2-ADD2-4FB2-9C9B-FBBD382D6AEC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>ViraFilter_-_Standalone_Plugin-ggtbyvfripmsbkcbzjhywiklvcxt</string>
+			<key>timeStartedRecording</key>
+			<real>715029699.65252304</real>
+			<key>timeStoppedRecording</key>
+			<real>715029703.85306704</real>
+			<key>title</key>
+			<string>Build target ViraFilter - Standalone Plugin</string>
+			<key>uniqueIdentifier</key>
+			<string>919A29E2-ADD2-4FB2-9C9B-FBBD382D6AEC</string>
+		</dict>
+		<key>978D2B3A-FE93-4860-8F24-ED94E409D9B5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>978D2B3A-FE93-4860-8F24-ED94E409D9B5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
 			<string>ViraFilter_-_Shared_Code-ggtbyvfripmsbkcbzjhywiklvcxt</string>
 			<key>timeStartedRecording</key>
-			<real>715019457.656672</real>
+			<real>715040338.64387596</real>
 			<key>timeStoppedRecording</key>
-			<real>715019463.65177095</real>
+			<real>715040347.98958397</real>
 			<key>title</key>
 			<string>Build target ViraFilter - Shared Code</string>
 			<key>uniqueIdentifier</key>
-			<string>A636DE08-E849-419D-95B0-C27C804DDE0A</string>
+			<string>978D2B3A-FE93-4860-8F24-ED94E409D9B5</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

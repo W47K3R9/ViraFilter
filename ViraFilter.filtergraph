@@ -62,10 +62,10 @@
     </LAYOUT>
   </FILTER>
   <FILTER uid="6" x="0.6274999999999999" y="0.2923076923076923" useARA="0"
-          uiLastX_Normal="352" uiLastY_Normal="211" uiopen_Normal="0">
+          uiLastX_Normal="431" uiLastY_Normal="218" uiopen_Normal="0">
     <PLUGIN name="AUAudioFilePlayer" format="AudioUnit" category="Generator"
             manufacturer="Apple" version="1.6.0" file="AudioUnit:Generators/augn,afpl,appl"
-            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="18a421362dc"
+            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="18a4364eeaf"
             numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="6163676e"/>
     <STATE>638.hAGaoMGcv.C1AHv.DTfAGfPBJr.Gc3wGgvUag4VclE1XzUmbkIGUjEFcg8EDarVPUAkbkMWYzAUYxMWZyQWYtQ2TzEFcksTY4c0b0IFc4AWYWYWYxMWZu4FUzkGbk8EDOXVZrUVKxUlYkIWYtMVYyQkag0VYRDFbvwFPgxvzM3vCPDQFXYTZrUlSg0VYWIUYmk1atMmWIM2TkwVYiQWYjYTZrU1WP.4KUMWYxM2KLU2XgM2KMU2boM1KoQUctU1bujFU04VYyARSkQVZg8RS0MWZi8BQkAWYigVYfzzajU1KE4lZukGHzgVYfLUZrUlaiUFHvPCHs.xTo41YrU1KvDCHE4lZukGHzgVYfLUZrUlaiUFHnHUYo4FckIGbxUFckQFHhkGHMk1ZkAxTnklauQVXo3RazDVnRP8DTTgEWfQFZ3kTkcVZu4FQuU1bL81avokTkcVZu4FQgQWXeAADIM2TkwVYiQWYjIUYmk1atokTkcVZu4lSg0VYH7DDvA...........2ZoA..X...ny5T...F....wElZ6+A...Pbgo19e...lqMPb++G.............A...............................................9+G..............ffj......PBZ4TY2AhTkcVZu4VBRDlYvwFD.HQX0claQCBDVYTZrUFHwfUUtQWZzwVYjA.B.jA.l.vJ.jD.QAPV.3E.vAPc.nG.6APe.PH.MBPk.PZ.2DPNAHT.QE.WA7V.5EvdA3d.uGf9Aru..Hf.Bbf.JHPD........BD..........h...................BnA</STATE>
@@ -76,10 +76,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="7" x="0.5575" y="0.5865384615384616" useARA="0">
-    <PLUGIN name="ViraFilter" format="VST3" category="Fx" manufacturer="yourcompany"
+  <FILTER uid="7" x="0.5575" y="0.5865384615384616" useARA="0" uiLastX_Normal="42"
+          uiLastY_Normal="394" uiopen_Normal="0">
+    <PLUGIN name="ViraFilter" format="VST3" category="Fx" manufacturer="LeadBackToSines"
             version="1.0.0" file="/Users/Lucas/Library/Audio/Plug-Ins/VST3/ViraFilter.vst3"
-            uniqueId="f396a72d" isInstrument="0" fileTime="18a411d36e6" infoUpdateTime="18a421362e1"
+            uniqueId="f396a72d" isInstrument="0" fileTime="18a411d36e6" infoUpdateTime="18a4364eeaf"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="acf569b0"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -93,12 +94,12 @@
     </LAYOUT>
   </FILTER>
   <FILTER uid="11" x="0.3925" y="0.3634615384615384" useARA="0" uiLastX_Normal="376"
-          uiLastY_Normal="127" uiopen_Normal="1">
+          uiLastY_Normal="127" uiopen_Normal="0">
     <PLUGIN name="AudioPluginDemo" format="Internal" category="Effect" manufacturer="JUCE"
             version="1.0.0" file="AudioPluginDemo" uniqueId="4d00ec0c" isInstrument="0"
             fileTime="0" infoUpdateTime="0" numInputs="2" numOutputs="2"
             isShell="0" hasARAExtension="0" uid="4d00ec0c"/>
-    <STATE>189.VMjLgPK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUlO7.UPRETSfjFY8HBYkwVX4IBH1EFa0UVOh.iK4DiM0DCL3HCLyfCN2jyL4HxK9vCTAIUPMARZj0iHmEVZtIBH1EFa0UVOh.iK3jSN4jSN4biMwTCNwPiLwHxK9vScoMEcgQWYfbWZjQGZ8HBMv.iHffVYocFZz0iHx.CLh7hO77xbzEFck4C.</STATE>
+    <STATE>174.VMjLgTJ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUlO7.UPRETSfjFY8HBYkwVX4IBH1EFa0UVOh.iKzfSMvjiM0DCMxHSMv.iMwHxK9vCTAIUPMARZj0iHmEVZtIBH1EFa0UVOhDiKvHxK9vScoMEcgQWYfbWZjQGZ8HBMv.iHffVYocFZz0iHx.CLh7hO77xbzEFck4C.</STATE>
     <LAYOUT>
       <INPUTS>
         <BUS index="0" layout="L R"/>

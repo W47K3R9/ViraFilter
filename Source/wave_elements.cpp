@@ -141,3 +141,15 @@ void Capacitor::calcPortResistance()
 {
     port_res = 1 / (2 * samplerate * cmp_val);
 }
+
+
+/*
+ ----- ResistiveVS -----
+
+
+void RootVS::setConnection(WaveElement* _cmp)
+{
+    cmp = _cmp;
+    calcPortResistance();
+}
+ */

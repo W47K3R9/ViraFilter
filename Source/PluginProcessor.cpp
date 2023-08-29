@@ -95,7 +95,8 @@ void ViraFilterAudioProcessor::prepareToPlay (double sampleRate, int samplesPerB
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
-    butwo3.initializeFilter(sampleRate);
+    filterL.initializeFilter(sampleRate);
+    filterR.initializeFilter(sampleRate);
 }
 
 void ViraFilterAudioProcessor::releaseResources()
@@ -142,8 +143,8 @@ void ViraFilterAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
     // This is here to avoid people getting screaming feedback
     // when they first compile a plugin, but obviously you don't need to keep
     // this code if your algorithm always overwrites all the output channels.
-    for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
-        buffer.clear (i, 0, buffer.getNumSamples());
+    //for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
+    //    buffer.clear (i, 0, buffer.getNumSamples());
 
     // This is the place where you'd normally do the guts of your plugin's
     // audio processing...
@@ -153,11 +154,29 @@ void ViraFilterAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
     // interleaved by keeping the same state.
     for (int channel = 0; channel < totalNumInputChannels; ++channel)
     {
+        
         auto* channelData = buffer.getWritePointer (channel);
-        for (int i = 0; i < buffer.getNumSamples(); ++i)
-        {
-            channelData[i] = butwo3.processSample(channelData[i]);
+        // std::cout << "in: " << channelData[8] << '\n';
+        switch (channel) {
+            case 0:
+                for (int i = 0; i < buffer.getNumSamples(); ++i)
+                {
+                    channelData[i] = filterL.processSample(channelData[i]);
+                    //channelData[i] = channelData[i];
+                }
+                break;
+            case 1:
+                for (int i = 0; i < buffer.getNumSamples(); ++i)
+                {
+                    channelData[i] = filterR.processSample(channelData[i]);
+                    //channelData[i] = channelData[i];
+                }
+                break;
+            default:
+                break;
         }
+        
+        // std::cout << "out: " << channelData[8] << '\n';
     }
 }
 

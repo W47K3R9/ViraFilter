@@ -26,7 +26,7 @@ public:
     double processSample(double _sample) override;
     ~VAButterworth3() {}
 private:
-    ResistiveVS source;
+    RootVS source;
     ParallelThreePort parallel_1;
     SerialThreePort serial_1;
     SerialThreePort serial_2;
@@ -35,5 +35,22 @@ private:
     Inductor L2;
     Resistor Rres;
     LeafWaveElement* leafs[4] = {&C1, &C3, &L2, &Rres};
+};
+
+class VAButterNew : public IVATopology
+{
+public:
+    VAButterNew() {}
+    void initializeFilter(double _samplerate) override;
+    double processSample(double _sample) override;
+    ~VAButterNew() {}
+private:
+    RootVS source;
+    ParallelThreePort parallel_1;
+    SerialThreePort serial_1;
+    Capacitor C1;
+    Capacitor C3;
+    Inductor L2;
+    LeafWaveElement* leafs[3] = {&C1, &C3, &L2};
 };
 #endif /* va_filters_hpp */

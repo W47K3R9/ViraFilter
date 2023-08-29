@@ -8,7 +8,7 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.ViraFilter</string>
+    <string>com.LeadBackToSines.ViraFilter</string>
     <key>CFBundleName</key>
     <string>ViraFilter</string>
     <key>CFBundleDisplayName</key>

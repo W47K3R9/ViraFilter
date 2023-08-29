@@ -13,9 +13,9 @@ void VAButterworth3::initializeFilter(double _samplerate)
     {
         leaf->setSampleRate(_samplerate);
     }
-    C1.updateComponent(0.6e-3);
-    C3.updateComponent(0.6e-3);
-    L2.updateComponent(1.2e-3);
+    C1.updateComponent(0.1e-3);
+    C3.updateComponent(0.1e-3);
+    L2.updateComponent(0.2e-3);
     Rres.updateComponent(1);
     serial_2.setConnections(&C3, &Rres);
     serial_1.setConnections(&L2, &serial_2);
@@ -25,7 +25,28 @@ void VAButterworth3::initializeFilter(double _samplerate)
 double VAButterworth3::processSample(double _sample)
 {
     source.processSample(_sample);
-    source.receiveIncidentWave(serial_1.emitReflectedWave());
-    serial_1.receiveIncidentWave(source.emitReflectedWave());
-    return virtualVoltage(&Rres);
+    source.receiveIncidentWave(parallel_1.emitReflectedWave());
+    parallel_1.receiveIncidentWave(source.emitReflectedWave());
+    return virtualVoltage(&C3);
+}
+
+void VAButterNew::initializeFilter(double _samplerate)
+{
+    for (LeafWaveElement* leaf : leafs)
+    {
+        leaf->setSampleRate(_samplerate);
+    }
+    C1.updateComponent(0.1e-3);
+    C3.updateComponent(0.1e-3);
+    L2.updateComponent(0.2e-3);
+    serial_1.setConnections(&C3, &L2);
+    parallel_1.setConnections(&C1, &serial_1);
+}
+
+double VAButterNew::processSample(double _sample)
+{
+    source.processSample(_sample);
+    source.receiveIncidentWave(parallel_1.emitReflectedWave());
+    parallel_1.receiveIncidentWave(source.emitReflectedWave());
+    return virtualVoltage(&C3);
 }

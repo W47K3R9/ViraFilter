@@ -23,7 +23,7 @@ public:
     virtual ~WaveElement() {}
     double ref_wave = 0.0;
     double inc_wave = 0.0;
-    double port_res;
+    double port_res = 1.0;
 };
 
 class NodeWaveElement : public WaveElement
@@ -79,7 +79,6 @@ public:
     void updateComponent(double&& _cmp_val);
     void setSampleRate(double _sr) { samplerate = _sr; }
     double getSampleRate() const { return samplerate; }
-    void receiveIncidentWave(double a) override { inc_wave = a; }
     const double* getPortResistance() const override { return &port_res; };
     virtual ~LeafWaveElement() {};
 };
@@ -89,6 +88,7 @@ class Resistor : public LeafWaveElement
 public:
     Resistor() { cmp_val = 1e3; }
     Resistor(double _cmp_val) { updateComponent(_cmp_val); }
+    void receiveIncidentWave(double a) override { inc_wave = a; }
     double emitReflectedWave() override { return 0.0; }
     void calcPortResistance() override { port_res = cmp_val; }
     ~Resistor() {}
@@ -99,6 +99,7 @@ class Inductor : public LeafWaveElement
 public:
     Inductor() { cmp_val = 1e-3; }
     Inductor(double _cmp_val) { updateComponent(_cmp_val); }
+    void receiveIncidentWave(double a) override { inc_wave = - a; }
     double emitReflectedWave() override;
     void calcPortResistance() override;
     ~Inductor() {}
@@ -109,19 +110,25 @@ class Capacitor : public LeafWaveElement
 public:
     Capacitor() { cmp_val = 10e-6; }
     Capacitor(double _cmp_val) { updateComponent(_cmp_val); }
+    void receiveIncidentWave(double a) override { inc_wave = a; }
     double emitReflectedWave() override;
     void calcPortResistance() override;
     ~Capacitor() {}
 };
 
-class ResistiveVS : public LeafWaveElement
+class RootVS : public LeafWaveElement
 {
 public:
-    ResistiveVS() { port_res = 1.0; }
+    RootVS() { port_res = 0.1; }
+    // Only needed if NOT the root element.
+    // void setConnection(WaveElement* _cmp);
     void processSample(double _sample) { ref_wave = _sample; }
+    void receiveIncidentWave(double a) override { inc_wave = a; }
     double emitReflectedWave() override { return ref_wave; }
     void calcPortResistance() override {}
-    ~ResistiveVS() {}
+    ~RootVS() {}
+public:
+    WaveElement* cmp;
 };
 
 double inline virtualVoltage(WaveElement* cmp)
