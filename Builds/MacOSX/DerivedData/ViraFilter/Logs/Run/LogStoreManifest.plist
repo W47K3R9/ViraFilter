@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3033000E-496F-4CD5-A89C-C325F3FD726C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3033000E-496F-4CD5-A89C-C325F3FD726C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715019467.67876196</real>
+			<key>timeStoppedRecording</key>
+			<real>715019568.92659998</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>3033000E-496F-4CD5-A89C-C325F3FD726C</string>
+		</dict>
+		<key>51BEB8F7-E8F2-4985-8671-B51ADBF6AB29</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>51BEB8F7-E8F2-4985-8671-B51ADBF6AB29.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715018519.63898599</real>
+			<key>timeStoppedRecording</key>
+			<real>715018700.773682</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>51BEB8F7-E8F2-4985-8671-B51ADBF6AB29</string>
+		</dict>
+		<key>529D937A-B018-400D-B5BF-78E18D102929</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>529D937A-B018-400D-B5BF-78E18D102929.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715019578.53067601</real>
+			<key>timeStoppedRecording</key>
+			<real>715019610.71090496</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>529D937A-B018-400D-B5BF-78E18D102929</string>
+		</dict>
+		<key>6E5E2810-9A6A-441B-8022-57A22902BCCC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6E5E2810-9A6A-441B-8022-57A22902BCCC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715019956.88317299</real>
+			<key>timeStoppedRecording</key>
+			<real>715020027.25769806</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>6E5E2810-9A6A-441B-8022-57A22902BCCC</string>
+		</dict>
+		<key>769033EF-1F5B-434E-A4A1-BC2AE8ACDFB0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>769033EF-1F5B-434E-A4A1-BC2AE8ACDFB0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715019636.49555397</real>
+			<key>timeStoppedRecording</key>
+			<real>715019955.22740698</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>769033EF-1F5B-434E-A4A1-BC2AE8ACDFB0</string>
+		</dict>
+		<key>AFE9589B-C347-459E-9322-5FC462A70070</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AFE9589B-C347-459E-9322-5FC462A70070.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715018780.34512198</real>
+			<key>timeStoppedRecording</key>
+			<real>715019024.23609197</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>AFE9589B-C347-459E-9322-5FC462A70070</string>
+		</dict>
+		<key>B31B5B30-13A5-4244-A0E7-D22A0BF1B317</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B31B5B30-13A5-4244-A0E7-D22A0BF1B317.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715019146.95352602</real>
+			<key>timeStoppedRecording</key>
+			<real>715019457.049999</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>B31B5B30-13A5-4244-A0E7-D22A0BF1B317</string>
+		</dict>
+		<key>C33FA880-928F-4731-BD67-A382B60AAA2E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C33FA880-928F-4731-BD67-A382B60AAA2E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715018703.31860304</real>
+			<key>timeStoppedRecording</key>
+			<real>715018718.83477199</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>C33FA880-928F-4731-BD67-A382B60AAA2E</string>
+		</dict>
+		<key>D2A4B39D-7B9F-4890-B932-2AF446B7B0C5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D2A4B39D-7B9F-4890-B932-2AF446B7B0C5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715018748.90679598</real>
+			<key>timeStoppedRecording</key>
+			<real>715018766.35844696</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>D2A4B39D-7B9F-4890-B932-2AF446B7B0C5</string>
+		</dict>
+		<key>E21FC09B-EC9C-4B91-AB0C-2EA5CEE31C5D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E21FC09B-EC9C-4B91-AB0C-2EA5CEE31C5D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715019025.91913402</real>
+			<key>timeStoppedRecording</key>
+			<real>715019142.13451004</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>E21FC09B-EC9C-4B91-AB0C-2EA5CEE31C5D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

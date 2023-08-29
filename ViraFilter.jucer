@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Fb5XSR" name="ViraFilter" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="YCECCg" name="ViraFilter">
+    <GROUP id="{61CEA95B-C152-D9AF-E280-4F3E7403B114}" name="Source">
+      <FILE id="PDbZcD" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="q2bmsf" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="GLKETG" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="JN3vaS" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ViraFilter"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ViraFilter"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../SDK_Repos/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../SDK_Repos/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

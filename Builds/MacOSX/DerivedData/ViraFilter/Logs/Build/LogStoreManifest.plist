@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>132ADB0A-6646-4260-AD73-08723CA42E34</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>132ADB0A-6646-4260-AD73-08723CA42E34.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715019025.18749905</real>
+			<key>timeStoppedRecording</key>
+			<real>715019025.70231795</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>132ADB0A-6646-4260-AD73-08723CA42E34</string>
+		</dict>
+		<key>1E062FD0-1BC3-4DC9-8299-F5B63AFBBA14</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1E062FD0-1BC3-4DC9-8299-F5B63AFBBA14.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715018518.72372103</real>
+			<key>timeStoppedRecording</key>
+			<real>715018519.22565401</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>1E062FD0-1BC3-4DC9-8299-F5B63AFBBA14</string>
+		</dict>
+		<key>2F3BF081-D898-4C08-B44F-12F4E42EA844</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2F3BF081-D898-4C08-B44F-12F4E42EA844.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - All</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - All</string>
+			<key>timeStartedRecording</key>
+			<real>715017614.04160905</real>
+			<key>timeStoppedRecording</key>
+			<real>715017623.619223</real>
+			<key>title</key>
+			<string>Build ViraFilter - All</string>
+			<key>uniqueIdentifier</key>
+			<string>2F3BF081-D898-4C08-B44F-12F4E42EA844</string>
+		</dict>
+		<key>3EF9CD63-06CF-4E8A-8B7D-80A907E9E692</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3EF9CD63-06CF-4E8A-8B7D-80A907E9E692.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715019457.57533097</real>
+			<key>timeStoppedRecording</key>
+			<real>715019467.47776496</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>3EF9CD63-06CF-4E8A-8B7D-80A907E9E692</string>
+		</dict>
+		<key>41077A81-8EF4-480D-B445-FA4ADBE3D056</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>41077A81-8EF4-480D-B445-FA4ADBE3D056.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715019635.956038</real>
+			<key>timeStoppedRecording</key>
+			<real>715019636.283023</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>41077A81-8EF4-480D-B445-FA4ADBE3D056</string>
+		</dict>
+		<key>41F6A382-99A0-4AEE-A91F-01CD2F816B71</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>41F6A382-99A0-4AEE-A91F-01CD2F816B71.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715018748.25950599</real>
+			<key>timeStoppedRecording</key>
+			<real>715018748.72033596</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>41F6A382-99A0-4AEE-A91F-01CD2F816B71</string>
+		</dict>
+		<key>6648726C-F089-4404-B343-12BB63EE7C00</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6648726C-F089-4404-B343-12BB63EE7C00.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715018702.699417</real>
+			<key>timeStoppedRecording</key>
+			<real>715018703.10150194</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>6648726C-F089-4404-B343-12BB63EE7C00</string>
+		</dict>
+		<key>7ED2EEE9-8FFD-4605-B274-1ED8095FF4D5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7ED2EEE9-8FFD-4605-B274-1ED8095FF4D5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - All</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - All</string>
+			<key>timeStartedRecording</key>
+			<real>715018490.56885302</real>
+			<key>timeStoppedRecording</key>
+			<real>715018491.61301005</real>
+			<key>title</key>
+			<string>Build ViraFilter - All</string>
+			<key>uniqueIdentifier</key>
+			<string>7ED2EEE9-8FFD-4605-B274-1ED8095FF4D5</string>
+		</dict>
+		<key>80600AAD-06D9-44A5-966E-CCB8CF1CB928</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>80600AAD-06D9-44A5-966E-CCB8CF1CB928.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715019146.26551199</real>
+			<key>timeStoppedRecording</key>
+			<real>715019146.76417696</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>80600AAD-06D9-44A5-966E-CCB8CF1CB928</string>
+		</dict>
+		<key>AAB806BF-669F-4C3B-963B-05BC1EB02135</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AAB806BF-669F-4C3B-963B-05BC1EB02135.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715018779.61466599</real>
+			<key>timeStoppedRecording</key>
+			<real>715018780.15028203</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>AAB806BF-669F-4C3B-963B-05BC1EB02135</string>
+		</dict>
+		<key>B4C408E0-2592-4D7A-BC61-A7AF64B15A9E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B4C408E0-2592-4D7A-BC61-A7AF64B15A9E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715019956.28990901</real>
+			<key>timeStoppedRecording</key>
+			<real>715019956.66679597</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>B4C408E0-2592-4D7A-BC61-A7AF64B15A9E</string>
+		</dict>
+		<key>EDB85418-A946-495A-86E1-3A7EE02A08ED</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EDB85418-A946-495A-86E1-3A7EE02A08ED.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - All</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - All</string>
+			<key>timeStartedRecording</key>
+			<real>715002272.03587902</real>
+			<key>timeStoppedRecording</key>
+			<real>715002348.27591205</real>
+			<key>title</key>
+			<string>Build ViraFilter - All</string>
+			<key>uniqueIdentifier</key>
+			<string>EDB85418-A946-495A-86E1-3A7EE02A08ED</string>
+		</dict>
+		<key>F6E57885-28FF-4A01-8429-D758B0B9E672</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F6E57885-28FF-4A01-8429-D758B0B9E672.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>timeStartedRecording</key>
+			<real>715019577.932657</real>
+			<key>timeStoppedRecording</key>
+			<real>715019578.32596099</real>
+			<key>title</key>
+			<string>Build ViraFilter - VST3</string>
+			<key>uniqueIdentifier</key>
+			<string>F6E57885-28FF-4A01-8429-D758B0B9E672</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
