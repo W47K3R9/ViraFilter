@@ -37,6 +37,7 @@ void NodeWaveElement::setConnections(WaveElement *_cmp1, WaveElement *_cmp2)
     cmp2 = {_cmp2};
     updatePort();
 }
+
 /*
  ----- SerialThreePort -----
  */
@@ -46,7 +47,7 @@ SerialThreePort::SerialThreePort(WaveElement* _cmp1, WaveElement* _cmp2)
 
 void SerialThreePort::receiveIncidentWave(double a)
 {
-    double reflected1 = sub_res[R1Div] * (cmp2->ref_wave - a)
+    double reflected1 = - sub_res[R1Div] * (cmp2->ref_wave + a)
         + sub_res[R2Div] * cmp1->ref_wave;
     double reflected2 = - sub_res[R2Div] * (cmp1->ref_wave + a)
         + sub_res[R1Div] * cmp2->ref_wave;
@@ -111,14 +112,16 @@ void LeafWaveElement::updateComponent(double&& _cmp_val)
     cmp_val = _cmp_val;
     calcPortResistance();
 }
+
 /*
  ----- Inductor ------
  */
 
 double Inductor::emitReflectedWave()
 {
+    double sample_dly = ref_wave;
     ref_wave = inc_wave;
-    return ref_wave;
+    return sample_dly;
 }
 
 void Inductor::calcPortResistance()
@@ -126,15 +129,15 @@ void Inductor::calcPortResistance()
     port_res = 2 * samplerate * cmp_val;
 }
 
-
 /*
  ----- Capacitor -----
  */
 
 double Capacitor::emitReflectedWave()
 {
+    double sample_dly = ref_wave;
     ref_wave = inc_wave;
-    return ref_wave;
+    return sample_dly;
 }
 
 void Capacitor::calcPortResistance()
@@ -142,14 +145,12 @@ void Capacitor::calcPortResistance()
     port_res = 1 / (2 * samplerate * cmp_val);
 }
 
-
 /*
  ----- ResistiveVS -----
+ */
 
-
-void RootVS::setConnection(WaveElement* _cmp)
+void ResistiveVS::setConnection(WaveElement* _cmp)
 {
     cmp = _cmp;
     calcPortResistance();
 }
- */

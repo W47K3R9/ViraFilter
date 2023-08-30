@@ -135,8 +135,9 @@ void ViraFilterAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
 {
     juce::ScopedNoDenormals noDenormals;
     auto totalNumInputChannels  = getTotalNumInputChannels();
-    auto totalNumOutputChannels = getTotalNumOutputChannels();
-
+    //auto totalNumOutputChannels = getTotalNumOutputChannels();
+    auto sampleCount = buffer.getNumSamples();
+    
     // In case we have more outputs than inputs, this code clears any output
     // channels that didn't contain input data, (because these aren't
     // guaranteed to be empty - they may contain garbage).
@@ -159,17 +160,15 @@ void ViraFilterAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
         // std::cout << "in: " << channelData[8] << '\n';
         switch (channel) {
             case 0:
-                for (int i = 0; i < buffer.getNumSamples(); ++i)
+                for (int i = 0; i < sampleCount; ++i)
                 {
                     channelData[i] = filterL.processSample(channelData[i]);
-                    //channelData[i] = channelData[i];
                 }
                 break;
             case 1:
-                for (int i = 0; i < buffer.getNumSamples(); ++i)
+                for (int i = 0; i < sampleCount; ++i)
                 {
                     channelData[i] = filterR.processSample(channelData[i]);
-                    //channelData[i] = channelData[i];
                 }
                 break;
             default:

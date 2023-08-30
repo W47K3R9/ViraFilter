@@ -26,7 +26,7 @@ public:
     double processSample(double _sample) override;
     ~VAButterworth3() {}
 private:
-    RootVS source;
+    ResistiveVS source;
     ParallelThreePort parallel_1;
     SerialThreePort serial_1;
     SerialThreePort serial_2;
@@ -45,7 +45,7 @@ public:
     double processSample(double _sample) override;
     ~VAButterNew() {}
 private:
-    RootVS source;
+    IdealVS source;
     ParallelThreePort parallel_1;
     SerialThreePort serial_1;
     Capacitor C1;

@@ -116,24 +116,42 @@ public:
     ~Capacitor() {}
 };
 
-class RootVS : public LeafWaveElement
+class ResistiveVS : public LeafWaveElement
 {
 public:
-    RootVS() { port_res = 0.1; }
-    // Only needed if NOT the root element.
-    // void setConnection(WaveElement* _cmp);
-    void processSample(double _sample) { ref_wave = _sample; }
+    // By default the port Resistance is set to 1
+    // When used as root element this leads to no changes in sound
+    // and has no effect to any other objects.
+    ResistiveVS() : cmp{nullptr} { port_res = 1.0; }
+    void processSample(double _sample) { v_in = _sample; }
     void receiveIncidentWave(double a) override { inc_wave = a; }
-    double emitReflectedWave() override { return ref_wave; }
-    void calcPortResistance() override {}
-    ~RootVS() {}
-public:
+    double emitReflectedWave() override { return v_in * port_res; }
+    
+    // Only needed if NOT the root element.
+    void setConnection(WaveElement* _cmp);
+    void calcPortResistance() override { port_res = cmp->port_res; }
+    
+    ~ResistiveVS() {}
+private:
     WaveElement* cmp;
+    double v_in;
+};
+
+class IdealVS : public LeafWaveElement
+{
+public:
+    IdealVS(){}
+    void processSample(double _sample) { v_in = _sample; }
+    void receiveIncidentWave(double a) override { inc_wave = a; }
+    double emitReflectedWave() override { return 2 * v_in - inc_wave; }
+    void calcPortResistance() override {}
+private:
+    double v_in;
 };
 
 double inline virtualVoltage(WaveElement* cmp)
 {
-        return (cmp->inc_wave + cmp->ref_wave) * 0.5;
+    return (cmp->inc_wave + cmp->ref_wave) * 0.5;
 }
 
 #endif /* wave_elements_hpp */

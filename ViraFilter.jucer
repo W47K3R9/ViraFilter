@@ -2,7 +2,8 @@
 
 <JUCERPROJECT id="Fb5XSR" name="ViraFilter" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
-              companyName="LeadBackToSines">
+              companyName="LeadBackToSines" version="1.0" pluginDesc="Virtual Analogue Filter"
+              pluginName="ViraFilter" pluginManufacturerCode="Lbts" pluginCode="Vira">
   <MAINGROUP id="YCECCg" name="ViraFilter">
     <GROUP id="{61CEA95B-C152-D9AF-E280-4F3E7403B114}" name="Source">
       <FILE id="PDbZcD" name="PluginProcessor.cpp" compile="1" resource="0"

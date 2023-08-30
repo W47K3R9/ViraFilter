@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>01C8BD6B-8504-4F87-AF96-F3DEB99C07D1</key>
+		<key>0C05D507-EF7F-4E2C-A86E-57331CA44FE7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>01C8BD6B-8504-4F87-AF96-F3DEB99C07D1.xcactivitylog</string>
+			<string>0C05D507-EF7F-4E2C-A86E-57331CA44FE7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715040264.70444596</real>
+			<real>715076079.86968005</real>
 			<key>timeStoppedRecording</key>
-			<real>715040338.15239406</real>
+			<real>715076094.77880001</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>01C8BD6B-8504-4F87-AF96-F3DEB99C07D1</string>
+			<string>0C05D507-EF7F-4E2C-A86E-57331CA44FE7</string>
 		</dict>
-		<key>06D7D10C-6DC4-4C30-A871-24204B144CB1</key>
+		<key>0FE258BA-7ACC-4ED2-9F89-92CD77AD6594</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>06D7D10C-6DC4-4C30-A871-24204B144CB1.xcactivitylog</string>
+			<string>0FE258BA-7ACC-4ED2-9F89-92CD77AD6594.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715038221.46554101</real>
+			<real>715080237.62171102</real>
 			<key>timeStoppedRecording</key>
-			<real>715038326.33859599</real>
+			<real>715080304.77953601</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>06D7D10C-6DC4-4C30-A871-24204B144CB1</string>
+			<string>0FE258BA-7ACC-4ED2-9F89-92CD77AD6594</string>
 		</dict>
-		<key>0DFCAE97-1083-43CF-A878-3DFA72B8F1AD</key>
+		<key>15AADA18-EDD4-4326-884F-3721718C1EC6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0DFCAE97-1083-43CF-A878-3DFA72B8F1AD.xcactivitylog</string>
+			<string>15AADA18-EDD4-4326-884F-3721718C1EC6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715030439.48835003</real>
+			<real>715082198.57719195</real>
 			<key>timeStoppedRecording</key>
-			<real>715030469.699242</real>
+			<real>715082292.92815602</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>0DFCAE97-1083-43CF-A878-3DFA72B8F1AD</string>
+			<string>15AADA18-EDD4-4326-884F-3721718C1EC6</string>
 		</dict>
-		<key>0F8717FB-D44E-4D99-AAB5-076D1EB0AD19</key>
+		<key>192FFD57-0BBB-419C-AD83-16E396B7A8C0</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0F8717FB-D44E-4D99-AAB5-076D1EB0AD19.xcactivitylog</string>
+			<string>192FFD57-0BBB-419C-AD83-16E396B7A8C0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715029806.80615199</real>
+			<real>715080141.65562201</real>
 			<key>timeStoppedRecording</key>
-			<real>715029852.31739902</real>
+			<real>715080192.89331603</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>0F8717FB-D44E-4D99-AAB5-076D1EB0AD19</string>
+			<string>192FFD57-0BBB-419C-AD83-16E396B7A8C0</string>
 		</dict>
-		<key>1DDB5347-0649-40BC-BC7F-2B0ABCFD0DEF</key>
+		<key>1E4C50EC-695D-4442-A329-E44828E29E5E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1DDB5347-0649-40BC-BC7F-2B0ABCFD0DEF.xcactivitylog</string>
+			<string>1E4C50EC-695D-4442-A329-E44828E29E5E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715039684.28250599</real>
+			<real>715079796.87306798</real>
 			<key>timeStoppedRecording</key>
-			<real>715039873.88862097</real>
+			<real>715079823.52188301</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>1DDB5347-0649-40BC-BC7F-2B0ABCFD0DEF</string>
+			<string>1E4C50EC-695D-4442-A329-E44828E29E5E</string>
 		</dict>
-		<key>1F31A9C9-D145-41F9-AF6E-2301902A9003</key>
+		<key>1F68D778-6C49-4804-9E92-7D794642319E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1F31A9C9-D145-41F9-AF6E-2301902A9003.xcactivitylog</string>
+			<string>1F68D778-6C49-4804-9E92-7D794642319E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715030547.62356305</real>
+			<real>715080116.36270106</real>
 			<key>timeStoppedRecording</key>
-			<real>715030561.59466004</real>
+			<real>715080132.40822601</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>1F31A9C9-D145-41F9-AF6E-2301902A9003</string>
+			<string>1F68D778-6C49-4804-9E92-7D794642319E</string>
 		</dict>
-		<key>2B186C7D-7231-4D37-B63A-C4046D6D52F5</key>
+		<key>235FAE00-2DE2-46E0-A1A7-80B813168F95</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2B186C7D-7231-4D37-B63A-C4046D6D52F5.xcactivitylog</string>
+			<string>235FAE00-2DE2-46E0-A1A7-80B813168F95.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715040158.18096197</real>
+			<real>715074791.49473906</real>
 			<key>timeStoppedRecording</key>
-			<real>715040250.14361203</real>
+			<real>715074842.62995505</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>2B186C7D-7231-4D37-B63A-C4046D6D52F5</string>
+			<string>235FAE00-2DE2-46E0-A1A7-80B813168F95</string>
 		</dict>
-		<key>43216C2F-451C-492D-8E3F-2EE4D781E2D4</key>
+		<key>3CF02FC9-B386-44E1-AB10-AF4E9A3B5F2F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>43216C2F-451C-492D-8E3F-2EE4D781E2D4.xcactivitylog</string>
+			<string>3CF02FC9-B386-44E1-AB10-AF4E9A3B5F2F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +270,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715037948.35541499</real>
+			<real>715075251.36022794</real>
 			<key>timeStoppedRecording</key>
-			<real>715038064.70562005</real>
+			<real>715075898.83954704</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>43216C2F-451C-492D-8E3F-2EE4D781E2D4</string>
+			<string>3CF02FC9-B386-44E1-AB10-AF4E9A3B5F2F</string>
 		</dict>
-		<key>495B07E9-3149-4C54-BFEF-B2B85408A399</key>
+		<key>3FAD6779-9DEF-4220-875D-3ACF4FF3CFF2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -287,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>495B07E9-3149-4C54-BFEF-B2B85408A399.xcactivitylog</string>
+			<string>3FAD6779-9DEF-4220-875D-3ACF4FF3CFF2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +304,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715037720.09988594</real>
+			<real>715074548.69099605</real>
 			<key>timeStoppedRecording</key>
-			<real>715037748.60229397</real>
+			<real>715074612.62971401</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>495B07E9-3149-4C54-BFEF-B2B85408A399</string>
+			<string>3FAD6779-9DEF-4220-875D-3ACF4FF3CFF2</string>
 		</dict>
-		<key>55CDFCF1-A085-4A5B-88AC-29A4022652C1</key>
+		<key>63C44650-4EF5-43B4-92FA-53A8B8020B51</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -321,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>55CDFCF1-A085-4A5B-88AC-29A4022652C1.xcactivitylog</string>
+			<string>63C44650-4EF5-43B4-92FA-53A8B8020B51.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +338,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715030194.76741695</real>
+			<real>715076110.12177503</real>
 			<key>timeStoppedRecording</key>
-			<real>715030258.18904102</real>
+			<real>715076119.05183899</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>55CDFCF1-A085-4A5B-88AC-29A4022652C1</string>
+			<string>63C44650-4EF5-43B4-92FA-53A8B8020B51</string>
 		</dict>
-		<key>57FFD810-D6EF-47E6-B4F9-1BBCC764E5C5</key>
+		<key>672622B4-8F82-48C8-923A-71C9D94E46F6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -355,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>57FFD810-D6EF-47E6-B4F9-1BBCC764E5C5.xcactivitylog</string>
+			<string>672622B4-8F82-48C8-923A-71C9D94E46F6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +372,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715039264.07685494</real>
+			<real>715074846.99314404</real>
 			<key>timeStoppedRecording</key>
-			<real>715039399.99270999</real>
+			<real>715074880.43967402</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>57FFD810-D6EF-47E6-B4F9-1BBCC764E5C5</string>
+			<string>672622B4-8F82-48C8-923A-71C9D94E46F6</string>
 		</dict>
-		<key>6E64771C-3E3B-4D52-BA3B-2A23FB2D9040</key>
+		<key>69738CBA-1F39-49CE-B975-001CEBA67FF6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -389,7 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6E64771C-3E3B-4D52-BA3B-2A23FB2D9040.xcactivitylog</string>
+			<string>69738CBA-1F39-49CE-B975-001CEBA67FF6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,15 +406,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715030342.90284896</real>
+			<real>715075918.20235801</real>
 			<key>timeStoppedRecording</key>
-			<real>715030430.66897702</real>
+			<real>715076001.19076598</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>6E64771C-3E3B-4D52-BA3B-2A23FB2D9040</string>
+			<string>69738CBA-1F39-49CE-B975-001CEBA67FF6</string>
 		</dict>
-		<key>72D7E75A-9B65-42B9-9A6E-37D9E5AEB119</key>
+		<key>761197FB-6DFA-48CA-9764-95E93DA90F37</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -423,7 +423,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>72D7E75A-9B65-42B9-9A6E-37D9E5AEB119.xcactivitylog</string>
+			<string>761197FB-6DFA-48CA-9764-95E93DA90F37.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -440,15 +440,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715037814.13712096</real>
+			<real>715082061.16431201</real>
 			<key>timeStoppedRecording</key>
-			<real>715037878.77818894</real>
+			<real>715082076.46202695</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>72D7E75A-9B65-42B9-9A6E-37D9E5AEB119</string>
+			<string>761197FB-6DFA-48CA-9764-95E93DA90F37</string>
 		</dict>
-		<key>8A986FA9-0BD3-4972-8D28-430C32FE9B60</key>
+		<key>784E0F07-BCC2-426A-94DF-EBD551644856</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -457,7 +457,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>8A986FA9-0BD3-4972-8D28-430C32FE9B60.xcactivitylog</string>
+			<string>784E0F07-BCC2-426A-94DF-EBD551644856.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -474,15 +474,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715029746.76365697</real>
+			<real>715079943.92744005</real>
 			<key>timeStoppedRecording</key>
-			<real>715029802.48310006</real>
+			<real>715079970.21754396</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>8A986FA9-0BD3-4972-8D28-430C32FE9B60</string>
+			<string>784E0F07-BCC2-426A-94DF-EBD551644856</string>
 		</dict>
-		<key>93838A59-76DA-46E8-983F-11049DC41EA5</key>
+		<key>80D1897B-6132-4E9D-9313-F496078C6D11</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -491,7 +491,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>93838A59-76DA-46E8-983F-11049DC41EA5.xcactivitylog</string>
+			<string>80D1897B-6132-4E9D-9313-F496078C6D11.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -508,15 +508,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715040351.87073898</real>
+			<real>715082306.36004603</real>
 			<key>timeStoppedRecording</key>
-			<real>715040603.30324602</real>
+			<real>715082369.472458</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>93838A59-76DA-46E8-983F-11049DC41EA5</string>
+			<string>80D1897B-6132-4E9D-9313-F496078C6D11</string>
 		</dict>
-		<key>9F43CCC4-79D0-411F-A732-747908A220D7</key>
+		<key>8B4E637B-3785-4F9D-B1F2-456091983D7D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -525,7 +525,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>9F43CCC4-79D0-411F-A732-747908A220D7.xcactivitylog</string>
+			<string>8B4E637B-3785-4F9D-B1F2-456091983D7D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -542,15 +542,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715038995.41279697</real>
+			<real>715080417.30325603</real>
 			<key>timeStoppedRecording</key>
-			<real>715039041.16147697</real>
+			<real>715080429.60829198</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>9F43CCC4-79D0-411F-A732-747908A220D7</string>
+			<string>8B4E637B-3785-4F9D-B1F2-456091983D7D</string>
 		</dict>
-		<key>A391BA0A-F9C5-47FF-BEF4-8E9C3B4529F2</key>
+		<key>9160542F-4E42-4AEA-8EC5-661F25F06F23</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -559,7 +559,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>A391BA0A-F9C5-47FF-BEF4-8E9C3B4529F2.xcactivitylog</string>
+			<string>9160542F-4E42-4AEA-8EC5-661F25F06F23.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -576,15 +576,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715039483.405478</real>
+			<real>715081879.99968505</real>
 			<key>timeStoppedRecording</key>
-			<real>715039535.93852901</real>
+			<real>715081910.64467502</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>A391BA0A-F9C5-47FF-BEF4-8E9C3B4529F2</string>
+			<string>9160542F-4E42-4AEA-8EC5-661F25F06F23</string>
 		</dict>
-		<key>AEB8CBE4-8A5F-4417-8BFE-D9C06D65F3A1</key>
+		<key>A4061C9D-B73A-47F4-9967-713052974EE4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -593,7 +593,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>AEB8CBE4-8A5F-4417-8BFE-D9C06D65F3A1.xcactivitylog</string>
+			<string>A4061C9D-B73A-47F4-9967-713052974EE4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -610,15 +610,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715037523.39856303</real>
+			<real>715076132.67884195</real>
 			<key>timeStoppedRecording</key>
-			<real>715037560.64035296</real>
+			<real>715076152.75885296</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>AEB8CBE4-8A5F-4417-8BFE-D9C06D65F3A1</string>
+			<string>A4061C9D-B73A-47F4-9967-713052974EE4</string>
 		</dict>
-		<key>B47A1063-5CB0-4F59-9194-CF0E2F0F6A76</key>
+		<key>B4F61EE7-0789-408B-B36F-91075DB0CC38</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -627,7 +627,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B47A1063-5CB0-4F59-9194-CF0E2F0F6A76.xcactivitylog</string>
+			<string>B4F61EE7-0789-408B-B36F-91075DB0CC38.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -644,15 +644,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715039110.64465106</real>
+			<real>715080206.97468197</real>
 			<key>timeStoppedRecording</key>
-			<real>715039147.11382902</real>
+			<real>715080233.40450001</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>B47A1063-5CB0-4F59-9194-CF0E2F0F6A76</string>
+			<string>B4F61EE7-0789-408B-B36F-91075DB0CC38</string>
 		</dict>
-		<key>BDC10CE0-F056-4C90-A651-F34F301627AF</key>
+		<key>B57FD0AF-3BAF-4AC9-9F25-7E1D66675DDC</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -661,7 +661,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>BDC10CE0-F056-4C90-A651-F34F301627AF.xcactivitylog</string>
+			<string>B57FD0AF-3BAF-4AC9-9F25-7E1D66675DDC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -678,15 +678,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715028984.62722802</real>
+			<real>715074194.197263</real>
 			<key>timeStoppedRecording</key>
-			<real>715028999.60805404</real>
+			<real>715074398.63335299</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>BDC10CE0-F056-4C90-A651-F34F301627AF</string>
+			<string>B57FD0AF-3BAF-4AC9-9F25-7E1D66675DDC</string>
 		</dict>
-		<key>BE5E7573-09E1-4999-98BF-255513C81E61</key>
+		<key>B6B2B6E2-F03C-4D08-BEAB-76C786D86467</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -695,7 +695,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>BE5E7573-09E1-4999-98BF-255513C81E61.xcactivitylog</string>
+			<string>B6B2B6E2-F03C-4D08-BEAB-76C786D86467.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -712,15 +712,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715039148.63466001</real>
+			<real>715074497.11607301</real>
 			<key>timeStoppedRecording</key>
-			<real>715039157.05140197</real>
+			<real>715074535.68519199</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>BE5E7573-09E1-4999-98BF-255513C81E61</string>
+			<string>B6B2B6E2-F03C-4D08-BEAB-76C786D86467</string>
 		</dict>
-		<key>C6C26B2C-6E79-4C77-914D-43C8ED2FE331</key>
+		<key>BA6F7DE4-03F9-4E1E-AD6C-87A969DA9A48</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -729,7 +729,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C6C26B2C-6E79-4C77-914D-43C8ED2FE331.xcactivitylog</string>
+			<string>BA6F7DE4-03F9-4E1E-AD6C-87A969DA9A48.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -746,15 +746,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715030478.59349406</real>
+			<real>715041214.81368899</real>
 			<key>timeStoppedRecording</key>
-			<real>715030508.20707703</real>
+			<real>715041220.783777</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>C6C26B2C-6E79-4C77-914D-43C8ED2FE331</string>
+			<string>BA6F7DE4-03F9-4E1E-AD6C-87A969DA9A48</string>
 		</dict>
-		<key>D5A14A77-6E8D-49A4-93D5-3E752EECEA97</key>
+		<key>BDB4DBA0-EC2A-4BB3-A696-8BC3C7E49AF9</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -763,7 +763,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D5A14A77-6E8D-49A4-93D5-3E752EECEA97.xcactivitylog</string>
+			<string>BDB4DBA0-EC2A-4BB3-A696-8BC3C7E49AF9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -780,15 +780,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715038587.52092695</real>
+			<real>715074682.50356996</real>
 			<key>timeStoppedRecording</key>
-			<real>715038865.71739697</real>
+			<real>715074778.23663199</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>D5A14A77-6E8D-49A4-93D5-3E752EECEA97</string>
+			<string>BDB4DBA0-EC2A-4BB3-A696-8BC3C7E49AF9</string>
 		</dict>
-		<key>E3013BFD-9680-45AE-9916-3F083DA8EA9E</key>
+		<key>C97D95FD-A532-433B-80B5-290E697DB96A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -797,7 +797,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E3013BFD-9680-45AE-9916-3F083DA8EA9E.xcactivitylog</string>
+			<string>C97D95FD-A532-433B-80B5-290E697DB96A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -814,15 +814,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715037614.19771397</real>
+			<real>715079684.11369097</real>
 			<key>timeStoppedRecording</key>
-			<real>715037680.90590298</real>
+			<real>715079730.811481</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>E3013BFD-9680-45AE-9916-3F083DA8EA9E</string>
+			<string>C97D95FD-A532-433B-80B5-290E697DB96A</string>
 		</dict>
-		<key>F6C37229-E56D-400A-9F82-7FAB1FD04B68</key>
+		<key>CA8C6E98-CF6E-4ADA-94B3-E8D0F80EAA89</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -831,7 +831,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F6C37229-E56D-400A-9F82-7FAB1FD04B68.xcactivitylog</string>
+			<string>CA8C6E98-CF6E-4ADA-94B3-E8D0F80EAA89.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -848,15 +848,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715030267.50189996</real>
+			<real>715081929.51121795</real>
 			<key>timeStoppedRecording</key>
-			<real>715030334.45952499</real>
+			<real>715081945.20653296</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>F6C37229-E56D-400A-9F82-7FAB1FD04B68</string>
+			<string>CA8C6E98-CF6E-4ADA-94B3-E8D0F80EAA89</string>
 		</dict>
-		<key>FC3D8C06-F837-44A3-9999-FC91945F2307</key>
+		<key>DE804189-1F14-45E1-8BD1-62706EE8393C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -865,7 +865,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>FC3D8C06-F837-44A3-9999-FC91945F2307.xcactivitylog</string>
+			<string>DE804189-1F14-45E1-8BD1-62706EE8393C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -882,15 +882,15 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715038335.84801996</real>
+			<real>715074623.08542001</real>
 			<key>timeStoppedRecording</key>
-			<real>715038488.08364201</real>
+			<real>715074672.10824299</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>FC3D8C06-F837-44A3-9999-FC91945F2307</string>
+			<string>DE804189-1F14-45E1-8BD1-62706EE8393C</string>
 		</dict>
-		<key>FC9B77A8-3381-45AF-A2CB-554B383AA1E1</key>
+		<key>F062134B-969C-41D0-94A5-5BCB0E06870F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -899,7 +899,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>FC9B77A8-3381-45AF-A2CB-554B383AA1E1.xcactivitylog</string>
+			<string>F062134B-969C-41D0-94A5-5BCB0E06870F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -916,13 +916,47 @@
 			<key>signature</key>
 			<string>Run AudioPluginHost</string>
 			<key>timeStartedRecording</key>
-			<real>715029969.50433397</real>
+			<real>715079735.57365894</real>
 			<key>timeStoppedRecording</key>
-			<real>715030185.59805596</real>
+			<real>715079759.11034501</real>
 			<key>title</key>
 			<string>Run AudioPluginHost</string>
 			<key>uniqueIdentifier</key>
-			<string>FC9B77A8-3381-45AF-A2CB-554B383AA1E1</string>
+			<string>F062134B-969C-41D0-94A5-5BCB0E06870F</string>
+		</dict>
+		<key>F4BD3EA0-DE14-4261-AC9B-8727151C8E9C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F4BD3EA0-DE14-4261-AC9B-8727151C8E9C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ViraFilter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ViraFilter - VST3</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AudioPluginHost</string>
+			<key>timeStartedRecording</key>
+			<real>715080309.58957505</real>
+			<key>timeStoppedRecording</key>
+			<real>715080412.85674405</real>
+			<key>title</key>
+			<string>Run AudioPluginHost</string>
+			<key>uniqueIdentifier</key>
+			<string>F4BD3EA0-DE14-4261-AC9B-8727151C8E9C</string>
 		</dict>
 	</dict>
 </dict>
