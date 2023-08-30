@@ -35,7 +35,7 @@ void NodeWaveElement::setConnections(WaveElement *_cmp1, WaveElement *_cmp2)
 {
     cmp1 = {_cmp1};
     cmp2 = {_cmp2};
-    updatePort();
+    // updatePort();
 }
 
 /*
@@ -119,9 +119,8 @@ void LeafWaveElement::updateComponent(double&& _cmp_val)
 
 double Inductor::emitReflectedWave()
 {
-    double sample_dly = ref_wave;
-    ref_wave = inc_wave;
-    return sample_dly;
+    ref_wave = - inc_wave;
+    return ref_wave;
 }
 
 void Inductor::calcPortResistance()
@@ -135,9 +134,8 @@ void Inductor::calcPortResistance()
 
 double Capacitor::emitReflectedWave()
 {
-    double sample_dly = ref_wave;
     ref_wave = inc_wave;
-    return sample_dly;
+    return ref_wave;
 }
 
 void Capacitor::calcPortResistance()

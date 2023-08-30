@@ -136,39 +136,28 @@ void ViraFilterAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
     juce::ScopedNoDenormals noDenormals;
     auto totalNumInputChannels  = getTotalNumInputChannels();
     //auto totalNumOutputChannels = getTotalNumOutputChannels();
-    auto sampleCount = buffer.getNumSamples();
+    int sampleCount = buffer.getNumSamples();
     
-    // In case we have more outputs than inputs, this code clears any output
-    // channels that didn't contain input data, (because these aren't
-    // guaranteed to be empty - they may contain garbage).
-    // This is here to avoid people getting screaming feedback
-    // when they first compile a plugin, but obviously you don't need to keep
-    // this code if your algorithm always overwrites all the output channels.
-    //for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
-    //    buffer.clear (i, 0, buffer.getNumSamples());
-
-    // This is the place where you'd normally do the guts of your plugin's
-    // audio processing...
-    // Make sure to reset the state if your inner loop is processing
-    // the samples and the outer loop is handling the channels.
-    // Alternatively, you can process the samples with the channels
-    // interleaved by keeping the same state.
+    float gain = apvts.getRawParameterValue("gain")->load();
+    float frq = apvts.getRawParameterValue("frequency")->load();
+    float res = apvts.getRawParameterValue("resonance")->load();
+    filterL.updateComponents(frq, res);
+    filterR.updateComponents(frq, res);
     for (int channel = 0; channel < totalNumInputChannels; ++channel)
     {
-        
         auto* channelData = buffer.getWritePointer (channel);
         // std::cout << "in: " << channelData[8] << '\n';
         switch (channel) {
             case 0:
                 for (int i = 0; i < sampleCount; ++i)
                 {
-                    channelData[i] = filterL.processSample(channelData[i]);
+                    channelData[i] = filterL.processSample(channelData[i]) * gain;
                 }
                 break;
             case 1:
                 for (int i = 0; i < sampleCount; ++i)
                 {
-                    channelData[i] = filterR.processSample(channelData[i]);
+                    channelData[i] = filterR.processSample(channelData[i]) * gain;
                 }
                 break;
             default:
@@ -187,7 +176,47 @@ bool ViraFilterAudioProcessor::hasEditor() const
 
 juce::AudioProcessorEditor* ViraFilterAudioProcessor::createEditor()
 {
-    return new ViraFilterAudioProcessorEditor (*this);
+    return new juce::GenericAudioProcessorEditor(*this);
+    // return new ViraFilterAudioProcessorEditor (*this);
+}
+
+//==============================================================================
+// Parameters for the Plugin
+juce::AudioProcessorValueTreeState::ParameterLayout
+    ViraFilterAudioProcessor::createLayout()
+{
+    juce::AudioProcessorValueTreeState::ParameterLayout layout;
+    
+    layout.add(std::make_unique<juce::AudioParameterFloat>
+               (juce::ParameterID("gain", 1),
+                "Gain",
+                juce::NormalisableRange<float> (0.1, 5.0, 0.01, 1.0),
+                1.0)
+               );
+    
+    layout.add(std::make_unique<juce::AudioParameterFloat>
+               (juce::ParameterID("frequency", 1),
+                "frq",
+                // Butterworth
+                juce::NormalisableRange<float> (500.0e-6, 400.0e-3, 1e-6, 0.2),
+                16.0e-3)
+                // LPF2
+//                juce::NormalisableRange<float> (10.0, 20.0e3, 1.0, 0.2),
+//                1000)
+               );
+    
+    layout.add(std::make_unique<juce::AudioParameterFloat>
+               (juce::ParameterID("resonance", 1),
+                "res",
+                // Butterworth
+                juce::NormalisableRange<float> (50.0, 3000.0, 1.0, 0.2),
+                50.0)
+                // LPF2
+//                juce::NormalisableRange<float> (0.1, 10, 0.1, 0.2),
+//                1.0)
+               );
+    
+    return layout;
 }
 
 //==============================================================================

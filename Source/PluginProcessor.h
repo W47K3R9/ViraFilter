@@ -62,6 +62,16 @@ private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ViraFilterAudioProcessor)
     
     //==============================================================================
+    // Actual Filters
     VAButterworth3 filterL;
     VAButterworth3 filterR;
+//    
+//    VALPF2 filterL;
+//    VALPF2 filterR;
+    
+    //==============================================================================
+    // Parameter Stuff
+    juce::AudioProcessorValueTreeState apvts
+        {*this, nullptr, "parameters", createLayout()};
+    static juce::AudioProcessorValueTreeState::ParameterLayout createLayout();
 };

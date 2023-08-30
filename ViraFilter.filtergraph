@@ -62,10 +62,10 @@
     </LAYOUT>
   </FILTER>
   <FILTER uid="6" x="0.6274999999999999" y="0.2923076923076923" useARA="0"
-          uiLastX_Normal="431" uiLastY_Normal="218" uiopen_Normal="0">
+          uiLastX_Normal="431" uiLastY_Normal="218" uiopen_Normal="1">
     <PLUGIN name="AUAudioFilePlayer" format="AudioUnit" category="Generator"
             manufacturer="Apple" version="1.6.0" file="AudioUnit:Generators/augn,afpl,appl"
-            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="18a45689b74"
+            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="18a4732bc24"
             numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="6163676e"/>
     <STATE>638.hAGaoMGcv.C1AHv.DTfAGfPBJr.Gc3wGgvUag4VclE1XzUmbkIGUjEFcg8EDarVPUAkbkMWYzAUYxMWZyQWYtQ2TzEFcksTY4c0b0IFc4AWYWYWYxMWZu4FUzkGbk8EDOXVZrUVKxUlYkIWYtMVYyQkag0VYRDFbvwFPgxvzM3vCPDQFXYTZrUlSg0VYWIUYmk1atMmWIM2TkwVYiQWYjYTZrU1WP.4KUMWYxM2KLU2XgM2KMU2boM1KoQUctU1bujFU04VYyARSkQVZg8RS0MWZi8BQkAWYigVYfzzajU1KE4lZukGHzgVYfLUZrUlaiUFHvPCHs.xTo41YrU1KvDCHE4lZukGHzgVYfLUZrUlaiUFHnHUYo4FckIGbxUFckQFHhkGHMk1ZkAxTnklauQVXo3RazDVnRP8DTTgEWfQFZ3kTkcVZu4FQuU1bL81avokTkcVZu4FQgQWXeAADIM2TkwVYiQWYjIUYmk1atokTkcVZu4lSg0VYH7DDvA...........2ZoA..X...ny5T...F....wElZ6+A...Pbgo19e...lqMPb++G.............A...............................................9+G..............ffj......PBZ4TY2AhTkcVZu4VBRDlYvwFD.HQX0claQCBDVYTZrUFHwfUUtQWZzwVYjA.B.jA.l.vJ.jD.QAPV.3E.vAPc.nG.6APe.PH.MBPk.PZ.2DPNAHT.QE.WA7V.5EvdA3d.uGf9Aru..Hf.Bbf.JHPD........BD..........h...................BnA</STATE>
@@ -92,10 +92,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="12" x="0.66875" y="0.55" useARA="0">
+  <FILTER uid="12" x="0.62875" y="0.5576923076923077" useARA="0" uiLastX_Normal="284"
+          uiLastY_Normal="419" uiopen_Normal="0">
     <PLUGIN name="ViraFilter" format="VST3" category="Fx" manufacturer="LeadBackToSines"
             version="1.0" file="/Users/Lucas/Library/Audio/Plug-Ins/VST3/ViraFilter.vst3"
-            uniqueId="e4bd9dd8" isInstrument="0" fileTime="18a436e4491" infoUpdateTime="18a45689b75"
+            uniqueId="e4bd9dd8" isInstrument="0" fileTime="18a436e4491" infoUpdateTime="18a4732bc25"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="8422c44d"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
