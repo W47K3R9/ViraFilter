@@ -146,7 +146,6 @@ void ViraFilterAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
     for (int channel = 0; channel < totalNumInputChannels; ++channel)
     {
         auto* channelData = buffer.getWritePointer (channel);
-        // std::cout << "in: " << channelData[8] << '\n';
         switch (channel) {
             case 0:
                 for (int i = 0; i < sampleCount; ++i)
@@ -163,8 +162,6 @@ void ViraFilterAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
             default:
                 break;
         }
-        
-        // std::cout << "out: " << channelData[8] << '\n';
     }
 }
 
