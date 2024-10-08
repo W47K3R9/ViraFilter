@@ -13,7 +13,7 @@
 
 enum Resistances
 {
-    R1, R2, RSer, R1Div, R2Div, sub_res_size
+    R1 = 1, R2, RSer, R1Div, R2Div, sub_res_size
 };
 
 template <class CMP_TP_1, class CMP_TP_2>
